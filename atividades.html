@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+
+    <h1>Atividade 01 - CSS</h1>
+    <p1>
+        <div class="informacoes">
+            <b>Propriedades de formatação de texto:</b><br>
+            <b>color: configura a cor de um texto. Valores possíveis: color.</b><br>
+            <b>text-align:</b> alinha o texto num elemento. Valores possíveis: left, right, center justify.<br>
+            <b>text-intent: </b>recua a primeira linha de um texto num elemento. Valores possíveis: length, %.<br>
+            <b>letter-spacing: </b>aumenta ou diminui o espaço entre os caracteres. Valores possíveis: normal,
+            length.<br>
+            <b>word-spacing:</b> aumenta ou diminui o espaço entre as palavras. Valores possíveis: normal, length.<br>
+            <b>font-family: </b>é usada para definir uma lista de fontes e sua prioridade para apresentação de um
+            elemento em uma página. Se a primeira fonte da lista não estiver instalada na máquina do usuário, deverá ser
+            usada a segunda e assim por diante. Exemplo: font-family:Arial, Helvetica, sans-serif.<br>
+            <b>font-style:</b> A propriedade font-style define a escolha da fonte em normal, italic ou oblique.<br>
+            <b>font-size: </b>define o tamanho do texto. Valores possíveis: px (pixels), % (porcentagem), etc.<br>
+            <b>font-weight:</b> A propriedade font-weight define quão negrito ou "pesada" deve ser a fonte. Uma fonte
+            pode ser normal ou bold.
+    </p1>
+    </div>
+    <p2>
+        <div class="informacoes2">
+            <b>Propriedades de posição:</b>
+            <br>Propriedades de posição
+            position: especifica o tipo de método de posicionamento usado para um elemento. Valores possíveis: static,
+            relative ,fixed, absolute, sticky.
+            bottom: Especifica a extremidade inferior de um elemento
+            top: Posiciona o elemento a partir do topo da página.
+            left: Especifica a extremidade esquerda de um elemento
+            right: Determina a posição do elemento a partir do lado direito da página.
+            clip:Define a área em que o conteúdo de um elemento será visualizado. Essa propriedade só pode ser usada em
+            conjunto com o posicionamento absolute ou fixed.
+
+
+            fonte: https://www.w3schools.com/css/css_positioning.asp
+
+    </p2>
+    </div>
+
+    <div class="informacoes3">
+        <p><b>Propriedade de espaçamento:</b>
+            Propriedades de Espaçamento
+            - Padding
+            A propriedade padding é utilizada para definir um espaçamento interno em elementos
+            ( por espaçamento interno queremos dizer a distância entre o limite do elemento, sua
+            borda, e seu respectivo conteúdo) e tem as subpropriedades listadas a seguir:<br>
+            padding-top: border: 1px solid red; 
+            padding-top: 25px;<br>
+            padding-right: border: 1px solid red; 
+            padding-right: 150px;<br>
+            padding-bottom: border: 1px solid red; 
+            padding-bottom: 25px;<br>
+            padding-left: border: 1px solid red; 
+            padding-left: 50px;<br>
+            <br>É possível determinar as dimensões de um elemento, por exemplo:
+            p {
+            background-color: red;
+            height: 300px;
+            width: 300px;
+            }<br>
+            - Margin
+            A propriedade margin é bem parecida com a propriedade padding, exceto que ela adiciona espaço após o limite
+            do elemento, ou seja, é um espaçamento além do elemento em si.<br>
+            <br> Há ainda uma maneira de permitir que o navegador defina qual será a dimensão da propriedade padding ou
+            margin conforme o espaço disponível na tela: definimos o valor auto para os espaçamentos que quisermos.
+            No exemplo a seguir, definimos que um elemento não tem nenhuma margem acima ou abaixo de seu conteúdo e que
+            o navegador define uma margem igual para ambos os lados de acordo com o espaço disponível:
+            p {
+            margin: 0 auto;
+            <br>}
+
+
+        </p>
+    </div>
+
+    <div class="informacoes4">
+        <p><b>Propriedade de cor</b>
+            <br><strong>Cores no Css:</strong>
+            <br>O CSS possui duas propriedades ligadas a cores: color e background-color.<br>
+            <br><strong>Color:</strong><br>
+            A propriedade color é utilizada para definir a cor do texto de um elemento HTML.<br>
+            <br>Por exemplo:
+            Quando aplicada a um elemento, o texto dentro dele terá a cor definida.<br>
+            <br><strong>background-color:</strong><br>
+                A propriedade background-color é utilizada para definir a cor de fundo de um             elemento HTML.<br>
+            
+            <br>Por exemplo:
+            Definimos a cor de fundo da tag p para amarelo<br>
+            
+            <br>As propriedades color e background-color aceitam diversos tipos de valores na hora de definir a cor de um elemento.<br>
+            <br><strong>Nominal:</strong><br>
+            Quando indicamos a cor que queremos através do seu nome. No CSS, o nome das cores deve ser dado em inglês.<br>
+            <br>Por exemplo:
+            Se quisermos um texto vermelho, vamos definir a propriedade color com o valor red.<br>
+            RGB
+            A sigla RGB vem do inglês para RED (vermelho), GREEN (verde), BLUE (azul) e permite a criação de diversas cores através da mistura dessas três cores.
+            No CSS, esses valores vão de 0 até 255. Se quisermos definir a cor vermelha em RGB faríamos assim:
+            Com os valores 255,0,0 estamos dizendo que queremos 255 de vermelho, 0 de verde e 0 deazul.
+            RGBA
+            O RGBA tem o mesmo funcionamento do RGB, porém, ele ganha um parâmetro extra, o A (Alpha).
+            O que esse parâmetro faz é definir o nível de transparência de uma cor.
+            O parâmetro A deve ser definido com um valor entre 0 e 1:
+            0 = 100% transparente / invisível
+            0.5 = semitransparente
+            1 = totalmente opaco / sem transparência
+            Hexadecimal
+            Esse formato conta com seis caracteres que podem variar entre:
+            0 1 2 3 4 5 6 7 8 9 A B C D E F.
+            Valores Hexadecimais são sempre precedidos pelo sinal #:
+            0 Equivale o valor mais baixo (preto)
+            F equivale ao valor mais alto (branco)
+            Exemplos:
+            #000000 = Cor Preta
+            #FFFFFF = Cor Branca
+            #FF0000 = Cor Vermelha
+            #00FF00 = Cor Verde
+            #0000FF = Cor Azul
+            HSL
+            Também é possível definir cores no HTML através do uso de H(Hue), S(Saturation), L (Lightness).
+            O valor de H se baseia na roda de cores e vai de 0 a 360.
+            O valor S determina a saturação da cor, ou seja, se a cor será mais viva ou mais fraca. O valor de S vai de 0 a 100%, onde:
+            0 = Preto e Branco
+            50% = Cor leve
+            100% = Cor forte
+            Por fim, temos o parâmetro L (Lightness), que define a luminosidade. Seu valor também vai de 0% a 100%, sendo seu valor padrão 50%.
+            0% = Totalmente escuro (preto)
+            50% = Iluminação normal
+            100% = Totalmente iluminado (branco)
+            Exemplos:
+            Parágrafo Um
+            Parágrafo Dois
+            Parágrafo Três
+            HSLA
+            O HSL também possui uma variação que permite modificar a transparência.
+            Assim como no RGBA, o parâmetro A do HSLA recebe valores entre 0 e 1, funcionando da seguinte maneira:
+            0 = 100% transparente / invisível
+            0.5 = semitransparente
+            1 = totalmente opaco / sem transparência
+            
+        </p>
+    </div>
+
+    <div class="informacoes5">
+        <p><b>Propriedades de efeitos</b><br>
+            Animações CSS  
+            CSS permite a animação de elementos HTML sem usar JavaScript ou Flash!  Uma animação permite que um elemento mude gradualmente de um estilo  para outro. Você pode alterar quantas propriedades CSS quiser, quantas  vezes quiser. Para usar a animação CSS, você deve primeiro especificar  alguns quadros-chave para a animação. Os quadros-chave contém os estilos  que o elemento terá em determinados momentos.<br>
+            Quando você especifica estilos CSS dentro da @keyframes regra, a animação mudará gradualmente do estilo atual para o novo estilo em determinados momentos. Para que uma animação funcione, você deve vincular a animação a um elemento. O exemplo a seguir vincula a animação "example" ao elemento <div>.A animação durará 2 segundos e mudará gradualmente a cor de fundo do elemento <div> de "vermelho" para  "amarelo".<br></p>
+    </div>
+
+</body>
+
+</html>
