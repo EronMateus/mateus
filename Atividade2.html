@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Documento1</title>
+</head>
+<style>
+
+
+</style>
+<body>
+    <div id="area">interaja...</div>
+       
+     <script>
+        var a = window.document.getElementById('area')0
+        a.addEventListener('click', clicar) 
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            var a = window.document.getElementById('area')
+            a.innerText = 'clicou'
+            a.style.background ='green'
+        }
+        function entrar() {
+            var a = window.document.getElementById('area')
+            a.innerText = 'Entrou'
+            a.style.background = 'red'
+        }
+        function sair() {
+            var a = window.document.getElementById('area')
+            a.innerText = 'Saiu'
+            a.style.background ='pink'
+        }
+            
+    </script>
+    
+    
+</body>
+</html>
