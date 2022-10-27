@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso-2</title>
+    <style>
+        body{
+            background-color: rgb(39, 47, 93);
+          color: rgb(18, 225, 22);
+        }
+        </style>
+</head>
+<body>
+    <h1>O numero é par ou é impar? </h1>
+    <button onclick="teste()">clique para iniciar</button>
+    <section id="result">
+    <p>o resultado será apresentado aqui...</p>
+    
+</section>
+    <script>
+        function teste() {
+            var num = Number(window.prompt(`Digite um número `))
+            var tipo
+            if (num % 2 == 0) {
+                tipo = `<strong>PAR</strong>`
+            } else {
+                tipo = `<strong>IMPAR</strong>`
+            }
+            var res = document.querySelector(`section#result`)
+            res.innerHTML =`<p>O número ${num} que foi digitado é ${tipo}! </p>`
+        }
+    </script>
+    
+</body>
+</html>
