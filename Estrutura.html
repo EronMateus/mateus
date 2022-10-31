@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas</title>
+
+</head>
+<body>
+    <h1>Calculando média da sua idade</h1>
+    <button onclick="votar()"id="botao">tente a Sorte</button>
+    <section id="result" type="number">
+        <p>O resultado vai aparecer aqui...</p>
+    </section>
+   <script>
+    function votar(){
+        var idade = parseInt(document.getElementById("idade").value);
+        if (idade < 16){
+        alert("Vocé ainda nao pode votar");
+      } 
+      else{
+        if(idade < 18){
+            alert("Seu voto é facultativo");
+        }
+        else{
+            if (idade > 65){
+                alert("Seu voto é facultativo");
+            }
+            else{
+                alert("Seu voto é facultativo");
+            }
+        }
+      }
+   </script>
+
+ 
+
+</body>
+</html>
