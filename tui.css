@@ -1,0 +1,14 @@
+body{background: darksalmon;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    height: 37%;
+    width: 35%;}
+p{background-color: crimson;
+width: 353px;
+line-height: 105px;}
+h1{background: crimson;}
