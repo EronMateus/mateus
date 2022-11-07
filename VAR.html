@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="VAR2.css">
+</head>
+<body>
+    <button onclick="votar()"id="botao">Aperte-me</button>
+    <section id="result" type="number">
+        <p>O resultado vai aparecer em cima</p>
+    </section>
+   <script>
+    function votar(){
+        var button = document.querySelector('button');
+
+   button.onclick = function() {
+  var nome = prompt('Qual é o seu nome?');
+  alert('Olá ' + nome + ', é um prazer te ver!');
+  if (nome === 'Adão') {
+  alert('Olá Adão, é um prazer te ver!');
+} else if (nome === 'Alan') {
+  alert('Olá Alan, é um prazer te ver!');
+} else if (nome === 'Bella') {
+  alert('Olá Bella, é um prazer te ver!');
+} else if (nome === 'Bianca') {
+  alert('Olá Bianca, é um prazer te ver!');
+} else if (nome === 'Chris') {
+  alert('Olá Chris, é um prazer te ver !');
+}
+ }
+}
+     
+   </script>
+    
+</body>
+</html>
